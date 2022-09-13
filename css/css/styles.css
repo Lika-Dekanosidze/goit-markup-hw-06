@@ -235,7 +235,7 @@ header {
   margin-right: auto;
   background-color: var(--bgc-dark-section);
   background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/Img-hero-bg.jpg);
+    url(../../images/Img-hero-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -449,6 +449,11 @@ header {
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--accent-bgc-color);
 }
+.service-description {
+  line-height: 16px;
+  color: var(--accent-bgc-color);
+  text-transform: uppercase;
+}
 .project {
   width: 370px;
 }
@@ -512,9 +517,9 @@ header {
 }
 
 
-.link-item:hover .project-modal {
+.link-item:hover .project-modal,
+.link-item:focus .project-modal {
   transform: translateY(0);
-
 }
 .project-description {
   margin: 0;
